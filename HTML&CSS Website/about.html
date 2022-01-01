@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <img src="/images/logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About As & Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_relative"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/" target="_relative"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://linkedin.com/" target="_relative"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="main">
+            <h1>About As & Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dicta modi ipsam amet vero in laudantium
+                iste, quaerat ipsum a deserunt eaque officiis laborum nihil aut voluptas porro tempora atque
+                exercitationem non? Omnis iusto quibusdam quidem vel illum quas enim.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23094.95521875786!2d17.94465413299577!3d43.650885415731565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sba!4v1641043029685!5m2!1sen!2sba"
+                width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="container">
+                <form action="">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Country</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                                <option value="france">France</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>Lorem, ipsum</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio a inventore similique rem illo harum iusto
+                nihil itaque delectus explicabo ut, maiores natus impedit eius ipsa, labore tenetur temporibus unde.</p>
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, provident temporibus. Doloremque
+                quis molestias nesciunt atque tenetur eveniet minus, quia esse quibusdam natus. Consequuntur harum,
+                praesentium quas iste laboriosam labore.</p>
+            <h2>Location</h2>
+            <img src="/images/location.png" alt="">
+            <p><a href="">Location</a></p>
+        </div>
+
+        <div class="footer">
+            <p>
+                Copyright &copy; Lineweb </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+#wrapper {
+  box-sizing: border-box;
+  width: 990px;
+  padding: 15px;
+  background-color: white;
+  margin: auto;
+}
+.header {
+  background-color: #c51417;
+  margin-bottom: 10px;
+}
+.header p {
+  float: right;
+  margin-right: 7px;
+  font-style: italic;
+  margin-top: 0;
+}
+.header img {
+  padding-top: 5px;
+}
+.header p {
+  color: white;
+}
+.navbar {
+  background-color: #333333;
+  overflow: hidden;
+}
+.main {
+  width: 700px;
+  float: left;
+}
+.sidebar {
+  width: 240px;
+  float: right;
+}
+.sidebar h2 {
+  background-color: #bbbbbb;
+  padding: 4px;
+  color: white;
+}
+.footer {
+  clear: both;
+  background-color: #333333;
+  color: #fff;
+  padding: 12px;
+}
+.footer p {
+  text-align: center;
+  margin: 0;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 12px;
+}
+.navbar li a:hover {
+  background: #c51417;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  float: left;
+}
+.icons a {
+  font-size: 22px;
+  float: right;
+  color: white;
+  padding: 5px 10px 5px 0px;
+}
+.icons a:hover {
+  cursor: pointer;
+  color: #c51417;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  resize: vertical;
+  border: 1px solid #c51417;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type="submit"] {
+  background-color: #c51417;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type="submit"]:hover {
+  background-color: #971416;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f3f3f3f8;
+  padding: 20px;
+  margin: 10px auto 15px auto;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
