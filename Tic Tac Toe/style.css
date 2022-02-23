@@ -1,0 +1,36 @@
+body {
+  font-family: "Architects Daughter", cursive;
+  background-color: rgb(50, 35, 53);
+  color: #fff;
+}
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+.wrapper h1,
+.wrapper p {
+  text-align: center;
+}
+.btn-restart {
+  border: none;
+  background: rgb(235, 137, 137);
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 18px;
+  width: 100%;
+}
+.btn-restart:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+  grid-template-rows: repeat(3, 100px);
+}
+.field {
+  border: 1px solid #cccc;
+  font-size: 70px;
+  text-align: center;
+  user-select: none;
+}
